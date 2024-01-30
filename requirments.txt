@@ -1,0 +1,5 @@
+numpy=1.23.5
+tqdm=4.66.1
+matplotlib=3.8.2
+scipy=1.12.0
+medpy=0.3.0
