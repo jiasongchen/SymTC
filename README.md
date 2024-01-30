@@ -39,8 +39,8 @@ Please access [**SSMSpine Dataset**](https://github.com/jiasongchen/SSMSpine) an
 
 ## Prepare data
 
-Please partition the contents of the downloaded **"Train"** folder into **Train** and **Vali** folder. 
-Place these sets, along with the **"Test"** folder, within the "dataset" folder, maintaining the specified structure.
+Please partition the data from the downloaded **"SSMSPine_Train"** into **Train** and **Vali** folder. 
+Place these folders, along with the data in **"SSMSpine_Test"** to **Test** folder , within the **"dataset"** folder, maintaining the specified structure.
 
 
 ```bash
