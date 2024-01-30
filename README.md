@@ -25,7 +25,7 @@ segmenting vertebral bones and intervertebral discs in lumbar spine MR images.
 
 ## Environment Setup
 
-Please set up an environment with python=3.11and execute the provided command to install the necessary dependencies.
+Please set up an environment with python=3.11 and execute the provided command to install the necessary dependencies.
 
 Please be aware that the hd95 function in the _medpy = 0.3.0_ specifically requires _numpy = 1.23.5_. 
 
@@ -51,7 +51,7 @@ Place these sets, along with the **"Test"** folder, within the "dataset" folder,
 │     │   │  ├──***
 │     │   ├──***
 │     │ 
-│     ├──Vali.py
+│     ├──Vali
 │     │   ├──p[**]
 │     │   │   ├──aug[*].pt
 │     │   │   ├──***
