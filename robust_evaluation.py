@@ -11,6 +11,7 @@ parser.add_argument('--net_name', default='SymTC', type=str, help='model')
 parser.add_argument('--snapshot_path', default=r'result/SymTC/', type=str, help='saved model path')
 parser.add_argument('--test_dataset_path', type=str, default=r'dataset/Test', help="testing dataset path")
 parser.add_argument('--device', type=str, default='cuda:0', help='device')
+parser.add_argument('--direction', default=0, type=int, help='shifting direction for robustness')
 
 parser.add_argument('--num_classes', default=12, type=int, help='output channel of network')
 parser.add_argument('--aug_elastic', default=0, type=int, nargs='+', help='elastic for augmentation')
@@ -28,9 +29,6 @@ if __name__ == '__main__':
     model = model_selection(args.net_name, args)
     model = model.to(device)
     snapshot_path = args.snapshot_path
-
+    direction = args.direction
     # %%Robustness Test
-    robust_evaluation(args, model, snapshot_path, 0, 'best')
-    # robust_evaluation(args, model, snapshot_path, 1, 'best')
-    # robust_evaluation(args, model, snapshot_path, 2, 'best')
-    # robust_evaluation(args, model, snapshot_path, 3, 'best')
+    robust_evaluation(args, model, snapshot_path, direction, 'best')
