@@ -1,6 +1,6 @@
 # SymTC
 
-[**SymTC: A Symbiotic Transformer-CNN Net for Instance Segmentation of Lumbar Spine MRI**](https://arxiv.org/abs/2401.09627)<br/>
+[**SymTC: A Symbiotic Transformer-CNN Net for Instance Segmentation of Lumbar Spine MRI**](https://www.sciencedirect.com/science/article/abs/pii/S0010482524008801)<br/>
 [Jiasong Chen](https://jiasongchen.github.io/),
 [Linchen Qian](https://scholar.google.com/citations?user=cqAjbgQAAAAJ&hl=en&oi=sra),
 [Linhai Ma](https://sarielma.github.io/),
