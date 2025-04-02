@@ -113,12 +113,13 @@ The shift directions are indicated as follows:
 ## Citations
 
 ```
-@misc{chen2024symtc,
-      title={SymTC: A Symbiotic Transformer-CNN Net for Instance Segmentation of Lumbar Spine MRI}, 
-      author={Jiasong Chen and Linchen Qian and Linhai Ma and Timur Urakov and Weiyong Gu and Liang Liang},
-      year={2024},
-      eprint={2401.09627},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
+@article{chen2024symtc,
+  title={SymTC: A symbiotic Transformer-CNN net for instance segmentation of lumbar spine MRI},
+  author={Chen, Jiasong and Qian, Linchen and Ma, Linhai and Urakov, Timur and Gu, Weiyong and Liang, Liang},
+  journal={Computers in biology and medicine},
+  volume={179},
+  pages={108795},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
