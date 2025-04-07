@@ -6,7 +6,7 @@
 [Linhai Ma](https://sarielma.github.io/),
 [Timur Urakov](https://med.miami.edu/faculty/timur-urakov-md),
 [Weiyong Gu](https://people.miami.edu/profile/9d2998936f27f2b0daa8828b8a709d0c),
-[Liang Liang](https://liangbright.wordpress.com/)<br/>
+[Liang Liang*](https://liangbright.wordpress.com/)<br/>
 
 ## Overview
 
